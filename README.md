@@ -11,8 +11,6 @@ Matrix multiplication is a fundamental operation in linear algebra, and it is co
 
 <b>5. MATLAB</b>: MATLAB is a high-level programming language specifically designed for scientific computing and numerical analysis. MATLAB provides built-in functions for matrix operations, including matrix multiplication, which are optimized for performance. However, using MATLAB for matrix operations can be slower compared to other programming languages due to its interpreted nature.
 
-In general, C and C++ are considered the fastest programming languages for matrix multiplication due to their low-level optimization capabilities and direct access to hardware resources. Python and MATLAB are slower compared to C and C++, but they provide more flexibility and ease of use for scientific computing applications. Java falls somewhere in between due to its interpreted nature and built-in matrix operations.
-
 # Methodology
 The methodology of matrix multiplication involves a set of steps that need to be followed to correctly multiply two matrices. The steps are as follows:
 
@@ -28,7 +26,18 @@ The methodology of matrix multiplication involves a set of steps that need to be
 
 # Comparison of Performance of Matrix Multiplication
 
-1.
+1. Create a matrix of size 10 and define the number of matrices as 10000.
+2. Calculate the execution time while increasing the number of matrices.
+3. Repeat steps 1 and 2 for each programming language.
+4. Record the results accurately.
+5. Plot a graph with the execution time on the y-axis and the number of matrices on the x-axis to observe the relationship between them.
+
+# Conclusion
+![Screenshot 2023-04-12 211718](https://user-images.githubusercontent.com/114856104/231512035-3f59304f-a2c3-4870-9404-c4e4b62284ca.png)
+
+C and C++ are considered the fastest programming languages for matrix multiplication due to their low-level optimization capabilities and direct access to hardware resources. Python and MATLAB are slower compared to C and C++, but they provide more flexibility and ease of use for scientific computing applications. Java falls somewhere in between due to its interpreted nature and built-in matrix operations.
+
+
 
 
 
